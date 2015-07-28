@@ -1,0 +1,47 @@
+.coolfieldset, .coolfieldset.expanded{
+	border:1px solid #E2E2E2;  
+	width:90%;  
+}
+
+.coolfieldset.collapsed{
+	border:0;
+	border-top:1px solid #E2E2E2;
+}
+
+.coolfieldset legend{
+	padding-left:13px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.coolfieldset legend, .coolfieldset.expanded legend{
+	background: transparent url(../images/menu-expanded.png) no-repeat center left;
+}
+
+.coolfieldset.collapsed legend{
+	background: transparent url(../images/menu-collapsed.png) no-repeat center left;
+}
+
+.coolfieldset2, .coolfieldset.expanded{
+	border:1px solid #FFFFFF;  
+	width:90%;  
+}
+
+.coolfieldset2.collapsed2{
+	border:0;
+	border-top:1px solid #FFFFFF;
+}
+
+.coolfieldset2 legend{
+	padding-left:13px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.coolfieldset2 legend, .coolfieldset.expanded2 legend{
+	background: transparent url(../images/collapsedown.png) no-repeat center left;
+}
+
+.coolfieldset2.collapsed2 legend{
+	background: transparent url(../images/collapsedown.png) no-repeat center left;
+}

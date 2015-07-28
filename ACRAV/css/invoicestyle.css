@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+/* --------------------------------------------------------------
+   PRINTABLE INVOICE STYLESHEET
+-------------------------------------------------------------- */
+body {
+    font: normal normal normal 11px/16px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    overflow: -moz-scrollbars-vertical;
+}
+body,td,input,select {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+form {
+    margin: 0px;
+}
+
+#wrapper {
+    width: 600px;
+}
+
+#mtwrapper {
+    width: 90%;
+}
+
+#mtwrapper2 {
+    width: 70%;
+	min-height:800px;
+}
+
+#mtwrapperdash {
+    width: 100%;
+}
+
+#invoicetoptables {
+    width: 100%;
+    background-color: #cccccc;
+    border-collapse: seperate;
+}
+
+td#invoicecontent {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.unpaid {
+    font-size: 16px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.paid {
+    font-size: 16px;
+    color: #779500;
+    font-weight: bold;
+}
+
+.refunded {
+    font-size: 16px;
+    color: #224488;
+    font-weight: bold;
+}
+
+.cancelled {
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#invoiceitemstable {
+    width: 100%;
+    background-color: #cccccc;
+    border-collapse: seperate;
+}
+#mtinvoiceitemstable {
+    width: 100%;
+    background-color: #cccccc;
+    
+}
+
+td#invoiceitemsheading {
+    background-color: #efefef;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+td#invoiceitemsrow {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.creditbox {
+    border: 1px dashed #cc0000;
+    font-weight: bold;
+    background-color: #FBEEEB;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: #cc0000;
+    margin-left: auto;
+}
+td#revshareshade {
+border:1px solid #CCCCCC;
+background-color:#efefef;
+border-bottom-color:#CCCCCC; 
+border-right-color:#CCCCCC; 
+border-left-color:#CCCCCC;
+
+}
+td#revsharerows {
+border:1px solid #CCCCCC;
+border-bottom-color:#FFFFFF; 
+border-right-color:#CCCCCC; 
+border-left-color:#CCCCCC;
+
+}
+td#bodas {
+border:1px solid #CCCCCC;
+
+border-bottom-color:#FFFFFF; 
+border-right-color:#CCCCCC; 
+border-top-color:#CCCCCC;
+
+}
+td#revsharelastrow {
+border:1px solid #CCCCCC;
+border-bottom-color:#CCCCCC; 
+border-right-color:#CCCCCC; 
+border-left-color:#CCCCCC;
+
+}
+#title {
+font-size:18px;
+font-stretch:extra-expanded;
+color:#666666;
+il
+}
+#servicetableshade
+{ background-color:#F0F8FF;
+}
+.prow
+{
+border:1px solid #CCCCCC;border-top-color:#FFF; border-bottom-color:#FFF;	
+}
+#servicetableshade_e
+{
+background-color:#F0F8FF;
+border:1px solid #CCCCCC; 
+border-top-color:#FFF; 
+border-right-color:#FFF; 
+border-left-color:#FFF;
+}
+#servicetableshade_o
+{ 
+background-color:#FFFFFF;
+border:1px solid #CCCCCC; 
+border-top-color:#FFF; 
+border-right-color:#FFF; 
+border-left-color:#FFF;
+}
+td#rowborders {
+border-left:1px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:1px solid #000000;
+}
+td#colshade {
+border-left:1px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:1px solid #000000;
+background-color:#FAFAFA;
+}
+td#headrowborders {
+border-left:1px solid #000000;
+border-right:1px solid #000000;
+border-top:1px solid #000000;
+border-bottom:1px solid #000000;
+}
+td#rowborderstrail {
+border-left:0px solid #000000;
+border-right:1px solid #000000;
+border-top:1px solid #000000;
+border-bottom:1px solid #000000;
+}
+td#rowborderspace {
+border-left:1px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:0px solid #000000;
+}
+td#rowspacetrail {
+border-left:0px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:0px solid #000000;
+}
+
+td#colshadetrail {
+border-left:0px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:0px solid #000000;
+background-color:#FAFAFA;
+}
+
+td#rowborderspacelast {
+border-left:1px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:1px solid #000000;
+}
+td#rowspacetraillast {
+border-left:0px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:1px solid #000000;
+}
+td#colshadetraillast {
+border-left:0px solid #000000;
+border-right:1px solid #000000;
+border-top:0px solid #000000;
+border-bottom:1px solid #000000;
+background-color:#FAFAFA;
+}
+td#rowborderspec {
+border:1px solid #FFFFFF;
+}
+

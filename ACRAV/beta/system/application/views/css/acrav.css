@@ -1,0 +1,450 @@
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+	text-decoration: none;
+}
+
+a:visited {
+	font-size: 13px;
+	color: #990000;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+	text-decoration: underline;
+}
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+.header{
+	height:10px; 
+	background: url(../images/logo.jpg) no-repeat 40px 10px #820000;
+}
+a.whitetext{
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:100;
+}
+
+a.top_links{
+	color:#FFFFFF;
+}
+
+#cur_user {
+	padding-top:13px;
+	float:left;
+	width:300px;
+}
+
+#top_links{
+	float:right;
+	overflow:visible;
+}
+
+#top_links ul {
+	position:relative;
+	margin-top:0px;
+}
+
+#top_links ul li {
+	background: url(../images/top_menu_separator.jpg) no-repeat right;
+	position:relative;
+	display:inline-block;
+	padding:10px 10px;
+}
+
+.nobg{
+	background:none !important;
+}
+
+#top_links ul li ul {
+	background:#FFFFFF none;
+	padding-left:0px;
+  	width: 180px;
+  	position: absolute;
+	top:-999px;
+  	left:-80px;
+  	display:block;
+  	z-index:5;
+}
+
+#top_links ul li ul li{
+	padding:7px 10px;
+	width:180px;	
+	background:none;
+}
+
+#top_links ul li ul li a{
+	color:#333333;
+	font-weight:bold;
+	font-size:11px;
+}
+
+#top_links ul li:hover{position:relative;}
+#top_links ul li:hover ul{
+	top:30px;
+	left:-80px;
+}
+
+span.notices {
+	width:auto;
+	background:#DE0000;
+	padding:2px 3px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+} 
+
+
+.mainbg {
+/*	background-image: url(../images/bg.jpg); 
+	background-repeat: repeat-x;
+	background-position: left top; */
+	padding:0px;
+	margin:0px;
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-image: url(../images/button_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+}
+
+
+.tableborder {
+	border: 5px solid #6A6A6A;
+}
+
+.tableborder_grey {
+	border: 5px solid #CCCCCC;
+}
+
+.datetext {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #999999;
+}
+
+.textfield {
+	font-size: 14px;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+.textfield_readonly {
+	font-size: 14px;
+	border: 1px solid #999999;
+	padding: 5px;
+	background-color: #E7E7CF;
+}
+
+
+.bottomtableborder_heading {
+	font-size: 22px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+a.heading {
+	font-size: 22px;
+	color: #990000;
+}
+
+.footerbg {
+	background-image: url(../images/horizontal_bar_bottom.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.smallbodytext {
+	font-size: 11px;
+}
+
+.lightgreybg {
+	background-color: #F9F9F9;	
+}
+
+.darkgreybg {
+	background-color: #EEEEEE;	
+}
+
+.topbarmenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:#CCCCCC;	
+}
+
+a.whitelink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color:#CCCCCC;
+}
+
+a.whitelink:hover {
+	text-decoration: underline;
+}
+
+
+.menuheader {
+	background-color: #6A6A6A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color:#FFFFFF;	
+}
+
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+a.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.message {
+	font-weight: bold;
+	background-color:#FFFF99;	
+}
+
+a.message {
+	text-decoration: underline;
+}
+
+
+.leftborder {
+	background-image: url(../images/left_border.jpg);
+	background-repeat: repeat-y;
+}
+
+.rightborder {
+	background-image: url(../images/right_border.jpg);
+	background-repeat: repeat-y;
+}
+
+.topborder {
+	background-image: url(../images/top_border.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.bottomborder {
+	background-image: url(../images/bottom_border.jpg);
+	background-repeat: repeat-x;
+}
+
+
+
+
+a.current{
+    
+font-weight:bold;
+}
+
+a.notices{
+	color:#000000;
+}
+a.hover:notices{
+	text-decoration: line-through !important;
+	color:#00FF66;
+}
+.msgContent{
+width:400px !important;
+overflow: hidden;
+}
+
+
+<!--[BEGIN] calendar stye sheet styles-->
+.cpYearNavigation,.cpMonthNavigation { 
+	background-color:#C0C0C0; 
+	text-align:center; 
+	vertical-align:middle; 
+	text-decoration:none; 
+	color:#000000; 
+	font-weight:bold; 
+}
+
+.cpDayColumnHeader, .cpYearNavigation,.cpMonthNavigation,.cpCurrentMonthDate,.cpCurrentMonthDateDisabled,.cpOtherMonthDate,.cpOtherMonthDateDisabled,.cpCurrentDate,.cpCurrentDateDisabled,.cpTodayText,.cpTodayTextDisabled,.cpText { 
+	font-family:arial; font-size:8pt; 
+}
+TD.cpDayColumnHeader { 
+	text-align:right; 
+	border:solid thin #C0C0C0;border-width:0px 0px 1px 0px; 
+}
+.cpCurrentMonthDate, .cpOtherMonthDate, .cpCurrentDate  { 
+	text-align:right; text-decoration:none; 
+}
+.cpCurrentMonthDateDisabled, .cpOtherMonthDateDisabled, .cpCurrentDateDisabled { 
+	color:#D0D0D0; text-align:right; text-decoration:line-through; 
+}
+.cpCurrentMonthDate, .cpCurrentDate { 
+	color:#000000; 
+}
+.cpOtherMonthDate { 
+	color:#808080; 
+}
+TD.cpCurrentDate { 
+	color:white; 
+	background-color: #C0C0C0; 
+	border-width:1px; 
+	border:solid thin #800000; 
+}
+TD.cpCurrentDateDisabled { 
+	border-width:1px; 
+	border:solid thin #FFAAAA; 
+}
+TD.cpTodayText, TD.cpTodayTextDisabled { 
+	border:solid thin #C0C0C0; 
+	border-width:1px 0px 0px 0px;
+}
+A.cpTodayText, SPAN.cpTodayTextDisabled { 
+	height:20px; 
+}
+A.cpTodayText { 
+	color:black; 
+}
+.cpTodayTextDisabled { 
+	color:#D0D0D0; 
+}
+.cpBorder { 
+	border:solid thin #808080; 
+}
+
+ul.regDetails, ul.regOptions,ul.opportunities{
+	list-style:none;
+	-moz-padding-start: 0px;
+	padding-left:0px;
+	overflow:hidden;
+}
+
+ul.opportunities{
+	height:300px;
+	overflow:hidden;
+}
+
+ul.regOptions li{
+	padding:8px 0px;
+}
+
+ul.regOptions li label{
+	font-weight:bold;
+	color:#990000;
+	font-size:12px
+}
+
+ul.regDetails li{
+	padding:6px;
+}
+
+ul.regDetails li input{
+	font-family:"Segoe UI Semibold";
+	font-size:14px;
+	font-weight:500;
+	color:#8A8A8A;
+	width:228px;
+}
+
+ul.opportunities li{
+	list-style:square inside;
+	font-size:12px;
+	font-weight:bold;
+	padding:15px 5px;
+	border-bottom:#F0F0F0 1px solid;
+	color:#666666;	
+}
+
+ul.opportunities li a{
+ font-size:11px;
+ font-weight:bold;
+ color:#990000;
+}
+
+div.note{
+	font-size:11px;
+	font-weight:100;
+	color:#666666
+}
+
+
+<!--[END] calendar stye sheet styles-->
+a.legend{
+font-family:Segoe UI;
+font-size:16px;
+color:#666666;
+font-weight:bold;
+text-decoration:none;
+text-transform:uppercase;
+
+
+}
+a.legend2{
+font-family:Segoe UI;
+font-size:14px;
+color:#666666;
+text-transform:uppercase;
+text-decoration:none;
+
+}
+.bodyinstruction{
+font-size:11px;
+color:#666666;
+
+}
+.bottom_heading {
+font-family:'Segoe UI';
+	font-size: 22px;
+color: #666666;
+font-weight:bold;
+}
+.textdescp{
+font-size:11px;
+font-weight:bold;
+color:#666666;
+}
+<!--[side links]--->
+.reminder{
+font-size:11px;
+font-family:'Arial';
+color:#666666;
+
+text-transform:uppercase;
+
+}
+.sidedata{
+
+font-size:11px;
+font-family:'Segoe UI';
+text-transform:uppercase;
+
+}
+.headtitle{
+font-size:14px;
+font-family:'Segoe UI';
+color:#990000;
+text-transform:uppercase;
+
+
+
+
+}
+<!--end-->

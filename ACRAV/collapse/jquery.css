@@ -1,0 +1,45 @@
+.coolfieldset, .coolfieldset.expanded{
+	border:1px solid #aaa;   
+}
+
+.coolfieldset.collapsed{
+	border:0;
+	border-top:1px solid #aaa;
+}
+
+.coolfieldset legend{
+	padding-left:13px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.coolfieldset legend, .coolfieldset.expanded legend{
+	background: transparent url(../images/menu-expanded.png) no-repeat center left;
+}
+
+.coolfieldset.collapsed legend{
+	background: transparent url(../images/menu-collapsed.png) no-repeat center left;
+}
+
+.coolfieldset2, .coolfieldset.expanded{
+	border:1px solid #aaa;   
+}
+
+.coolfieldset2.collapsed{
+	border:0;
+	border-top:1px solid #aaa;
+}
+
+.coolfieldset2 legend{
+	padding-left:13px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.coolfieldset2 legend, .coolfieldset.expanded legend{
+	background: transparent url(../images/menu-expanded.png) no-repeat center left;
+}
+
+.coolfieldset2.collapsed legend{
+	background: transparent url(../images/menu-collapsed.png) no-repeat center left;
+}

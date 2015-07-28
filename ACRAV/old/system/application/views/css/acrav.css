@@ -1,0 +1,240 @@
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+	text-decoration: none;
+}
+
+a:visited {
+	font-size: 13px;
+	color: #990000;
+	text-decoration: none;
+}
+
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #990000;
+	text-decoration: underline;
+}
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.mainbg {
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color:#FFFFFF;
+	background-image: url(../images/button_bg.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+}
+
+
+.tableborder {
+	border: 5px solid #6A6A6A;
+}
+
+.tableborder_grey {
+	border: 5px solid #CCCCCC;
+}
+
+.datetext {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #999999;
+}
+
+.textfield {
+	font-size: 14px;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+.textfield_readonly {
+	font-size: 14px;
+	border: 1px solid #999999;
+	padding: 5px;
+	background-color: #E7E7CF;
+}
+
+
+.bottomtableborder_heading {
+	font-size: 22px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+a.heading {
+	font-size: 22px;
+	color: #990000;
+}
+
+.footerbg {
+	background-image: url(../images/horizontal_bar_bottom.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.smallbodytext {
+	font-size: 11px;
+}
+
+.lightgreybg {
+	background-color: #F9F9F9;	
+}
+
+.darkgreybg {
+	background-color: #EEEEEE;	
+}
+
+.topbarmenu {
+	background-color: #A82626;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color:#FFFFFF;	
+}
+
+a.whitelink {
+	background-color: #A82626;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+
+a.whitelink:hover {
+	text-decoration: underline;
+}
+
+
+.menuheader {
+	background-color: #6A6A6A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color:#FFFFFF;	
+}
+
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+a.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.message {
+	font-weight: bold;
+	background-color:#FFFF99;	
+}
+
+a.message {
+	text-decoration: underline;
+}
+
+
+.leftborder {
+	background-image: url(../images/left_border.jpg);
+	background-repeat: repeat-y;
+}
+
+.rightborder {
+	background-image: url(../images/right_border.jpg);
+	background-repeat: repeat-y;
+}
+
+.topborder {
+	background-image: url(../images/top_border.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.bottomborder {
+	background-image: url(../images/bottom_border.jpg);
+	background-repeat: repeat-x;
+}
+
+
+
+
+
+
+
+
+
+<!--[BEGIN] calendar stye sheet styles-->
+.cpYearNavigation,.cpMonthNavigation { 
+	background-color:#C0C0C0; 
+	text-align:center; 
+	vertical-align:middle; 
+	text-decoration:none; 
+	color:#000000; 
+	font-weight:bold; 
+}
+
+.cpDayColumnHeader, .cpYearNavigation,.cpMonthNavigation,.cpCurrentMonthDate,.cpCurrentMonthDateDisabled,.cpOtherMonthDate,.cpOtherMonthDateDisabled,.cpCurrentDate,.cpCurrentDateDisabled,.cpTodayText,.cpTodayTextDisabled,.cpText { 
+	font-family:arial; font-size:8pt; 
+}
+TD.cpDayColumnHeader { 
+	text-align:right; 
+	border:solid thin #C0C0C0;border-width:0px 0px 1px 0px; 
+}
+.cpCurrentMonthDate, .cpOtherMonthDate, .cpCurrentDate  { 
+	text-align:right; text-decoration:none; 
+}
+.cpCurrentMonthDateDisabled, .cpOtherMonthDateDisabled, .cpCurrentDateDisabled { 
+	color:#D0D0D0; text-align:right; text-decoration:line-through; 
+}
+.cpCurrentMonthDate, .cpCurrentDate { 
+	color:#000000; 
+}
+.cpOtherMonthDate { 
+	color:#808080; 
+}
+TD.cpCurrentDate { 
+	color:white; 
+	background-color: #C0C0C0; 
+	border-width:1px; 
+	border:solid thin #800000; 
+}
+TD.cpCurrentDateDisabled { 
+	border-width:1px; 
+	border:solid thin #FFAAAA; 
+}
+TD.cpTodayText, TD.cpTodayTextDisabled { 
+	border:solid thin #C0C0C0; 
+	border-width:1px 0px 0px 0px;
+}
+A.cpTodayText, SPAN.cpTodayTextDisabled { 
+	height:20px; 
+}
+A.cpTodayText { 
+	color:black; 
+}
+.cpTodayTextDisabled { 
+	color:#D0D0D0; 
+}
+.cpBorder { 
+	border:solid thin #808080; 
+}
+
+
+<!--[END] calendar stye sheet styles-->

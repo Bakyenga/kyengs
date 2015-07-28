@@ -1,0 +1,15 @@
+Access level 	Read-only
+About the application permission model
+Consumer key 	GSMdeaOjX2zJpJR10vicog
+Consumer secret 	e23H7hmw9iYfEkgOQE6S8RFJBiUlW6VF9Hkl2sRMeo4
+Request token URL 	https://api.twitter.com/oauth/request_token
+Authorize URL 	https://api.twitter.com/oauth/authorize
+Access token URL 	https://api.twitter.com/oauth/access_token
+Callback URL 	http://demos.newwavetech.co.ug/eskom
+
+
+access
+
+Access token 	783959582-jb9fkXvHs93mvZC1hrbhYeApsv6ZWzOTq4dlaoXo
+Access token secret 	Qr3tiANYJ6FmgfShWnwQGgHu4ESIAqjDUo52kgklqAM
+Access level 	Read-only

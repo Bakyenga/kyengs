@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_s" value="name:ID;datatype:int,name:Firstname;datatype:string,name:Lastname;datatype:string,name:Sex;datatype:string,name:DOB;datatype:date,name:Location;datatype:string,name:Amount;datatype:string,name:Status;datatype:string,name:SponsorID;datatype:int,name:SchoolID;datatype:int,name:PartnerID;datatype:int,name:Details;datatype:blob,name:Image;datatype:string,name:Reason;datatype:string,name:Deadline;datatype:datetime" />
+</info>

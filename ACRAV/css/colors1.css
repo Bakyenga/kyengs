@@ -1,0 +1,16 @@
+
+/* ---------- Color Module Styles ----------- */
+body { color: #000000; background:#ffffff; }
+
+a, li a.active,
+#footer a:hover, #footer li a.active:hover, #footer-bottom a:hover, #foote-bottom li a.active:hover,
+#header a, #header-menu ul.menu li a:hover, #header-menu ul.menu li a.active, #header-menu ul.menu li ul.menu li a:hover,
+.front .node h1.front-heading { color:#666666; }
+
+#header-menu a, #header-menu ul.menu li a, #footer a, #footer li a.active, #footer-bottom a, #footer-bottom li a.active { color:#666666; }
+
+h3, h4, h5, h6, h2{ color:#000000;  }
+
+#slogan { color:#87853B; font-family:'Helvetica'; position:absolute; margin-top:-55px; margin-left:418px; font-size:12px; text-transform:uppercase; font-weight:bold;}
+
+#slogan2 { position:absolute; margin-top:-75px; margin-left:507px; font-size:12px; text-transform:uppercase; font-weight:bold;}
