@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+<style type="text/css">
+.form-field {
+clea:: both;
+padding: 10px;
+width: 350px;
+}
+.form-field label {
+float: left;
+width: 150px;
+text-align: right;
+}
+.form-field input {
+float: right;
+width: 150px;
+text-align: left;
+}
+</style>
+</head>
+<body>
+<TABLE BORDER=0 CELLPADDING=10 WIDTH=100%>
+<TR>
+<TD BGCOLOR="#003399" ALIGN=CENTER VALIGN=TOP WIDTH=150>
+</TD>
+<TD BGCOLOR="#FDFDFD" ALIGN=LEFT VALIGN=TOP WIDTH=83%>
+<H1>VALIDATION FILE </H1>
+<form action="outputint.php" method="post">
+
+<div class="form-field">
+FILE NUMBER: <input type="text" name="fileno"><br>
+</div>
+
+<div class="form-field">
+REFERENCE NUMBER: <input value="<?=get_referrence_no()?>" type="text" name="refnumber"><br>
+</div>
+
+<div class="form-field">
+SEAL NUMBER: <input type="text" name="sealno"><br>
+</div>
+
+<div class="form-field">
+DRIVER NUMBER: <input type="text" name="drivernumber"><br>
+</div>
+
+<div class="form-field">
+TRUCK NUMBER: <input type="text" name="trucknumber"><br>
+</div>
+
+<div class="form-field">
+CARGO ID: <input type="text" name="cargoid">
+</div>
+
+<div class="form-field">
+STATUS UPDATE: <input type="text" name="statusupdate">
+</div>
+
+<div class="form-field">
+FCR NUMBER: <input type="text" name="fcrnumber">
+</div>
+
+<div class="form-field">
+PORT/BORDER: <input type="text" name="portborder">
+</div>
+
+<div class="form-field">
+ARRIVAL DATE AND TIME: <input type="text" name="arrivaldate"><br>
+</div>
+
+<div class="form-field">
+DEPARTURE DATE AND TIME: <input type="text" name="departured&t"><br>
+</div>
+
+<div class="form-field">
+SEAL NUMBER BORDER: <input type="text" name="sealnoborder"><br>
+</div>
+
+
+<div class="form-field">
+SEAL NUMBER PORT: <input type="text" name="saelnumberport">
+</div>
+
+
+<div class="form-field">
+BOL NUMBER: <input type="text" name="bolnumber">
+</div>
+
+<div class="form-field">
+PLACE FOR COLLECTING BOL: <input type="text" name="collectingbol">
+</div>
+
+<div class="form-field">
+SHIPLINE NUMBER: <input type="text" name="shiplineno">
+</div>
+
+<div class="form-field">
+SHIPLINE NAME: <input type="text" name="shiplinename"><br>
+</div>
+
+<div class="form-field">
+<input id="submit" type="submit" name="submit" 
+value="Send Form">
+</div>
+
+</form>
+
+</TD>
+</TR>
+</TABLE>
+</body>
+</html>
